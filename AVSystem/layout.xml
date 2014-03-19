@@ -3,36 +3,31 @@
 	<tabs>
 		<tab text="Samsung FPT-5084">
 			<row>
-				<button text="TV Power" ontap="tv_power" />
+				<button text="Power" ontap="tv_power" />
 			</row>
 			<row>
-				<button text="TV VolUp" ontap="tv_vol_up" />
+				<button text="VolUp" ontap="tv_vol_up" />
 			</row>
 			<row>
-				<button text="TV VolDown" ontap="tv_vol_down" />
+				<button text="VolDown" ontap="tv_vol_down" />
 			</row>
 			<row>
-				<button text="TV Mute" ontap="tv_mute" />
+				<button text="Mute" ontap="tv_mute" />
 			</row>
 		</tab>
-		<!--<tab text="Play">
+		<tab text="Pioneer VSX-1018AH">
 			<row>
-				<button icon="rwd" ontap="rewind" />
-				<button icon="ff" ontap="forward" />
+				<button text="Power" ontap="receiver_power" />
 			</row>
 			<row>
-				<button icon="previous" ontap="skip_prev" />
-				<button icon="next" ontap="skip_next" />
+				<button text="VolUp" ontap="receiver_vol_up" />
 			</row>
 			<row>
-				<button icon="stop" ontap="stop" />
-				<button icon="playpause" ontap="play_pause" />
+				<button text="VolDown" ontap="receiver_vol_down" />
+			</row>
+			<row>
+				<button text="Mute" ontap="receiver_mute" />
 			</row>
 		</tab>
-		<tab text="Players">
-			<list id="players" ontap="select_player">
-				<item>Loading...</item>
-			</list>
-		</tab>-->
 	</tabs>
 </layout>
