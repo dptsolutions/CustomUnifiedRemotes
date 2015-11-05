@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout color="yellow">
+<layout color="blue">
 	<tabs>
 		<tab text="Samsung FPT-5084">
 			<row>
-				<button text="Power" ontap="tv_power" />
+				<button text="Power" icon="power" ontap="tv_power" />
+				<space />
+				<space />
+				<button text="Source" ontap="tv_source" />
 			</row>
 			<row>
-				<button text="VolUp" ontap="tv_vol_up" />
+				<button text="Volume Up" icon="up" ontap="tv_vol_up" />
+				<space />
+				<button text="Channel Up" icon="up" ontap="tv_chan_up" />
 			</row>
 			<row>
-				<button text="VolDown" ontap="tv_vol_down" />
+				<label text="Volume" textalign="center" />
+				<space />
+				<label text="Channel" textalign="center" />
+			</row>
+			<row>
+				<button text="Volume Down" icon="down" ontap="tv_vol_down" />
+				<space />
+				<button text="Channel Down" icon="down" ontap="tv_chan_down" />
 			</row>
 			<row>
 				<button text="Mute" ontap="tv_mute" />
@@ -17,13 +29,26 @@
 		</tab>
 		<tab text="Pioneer VSX-1018AH">
 			<row>
-				<button text="Power" ontap="receiver_power" />
+				<button text="Power" icon="power" ontap="receiver_power" />
+				<button text="BD" ontap="receiver_bd" />
+				<button text="TV" ontap="receiver_tv" />
+				<button text="HDMI" ontap="receiver_hdmi" />
+				<button text="DVD" ontap="receiver_dvd" />
 			</row>
 			<row>
-				<button text="VolUp" ontap="receiver_vol_up" />
+				<space />
+				<button text="Volume Up" icon="up" ontap="receiver_vol_up" />
+				<space />
 			</row>
 			<row>
-				<button text="VolDown" ontap="receiver_vol_down" />
+				<space />
+				<label text="Volume" />
+				<space />
+			</row>
+			<row>
+				<space />
+				<button text="Volume Down" icon="down" ontap="receiver_vol_down" />
+				<space />
 			</row>
 			<row>
 				<button text="Mute" ontap="receiver_mute" />
